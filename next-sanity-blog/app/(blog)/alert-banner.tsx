@@ -1,23 +1,6 @@
-// "use client";
-
-// import { useRouter } from "next/navigation";
-// import { useSyncExternalStore, useTransition } from "react";
-
-// import { disableDraftMode } from "./actions";
-
-// const emptySubscribe = () => () => {};
 
 export default function AlertBanner() {
-  // const router = useRouter();
-  // const [pending, startTransition] = useTransition();
-
-  // const shouldShow = useSyncExternalStore(
-  //   emptySubscribe,
-  //   () => window.top === window,
-  //   () => false,
-  // );
-
-  // if (!shouldShow) return null;
+  
 
   return (
     <div
@@ -25,6 +8,14 @@ export default function AlertBanner() {
     >
       <div className="py-2 text-center text-sm">
         BLOGS
+
+      </div>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </div>
     </div>
   );
